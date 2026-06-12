@@ -1,10 +1,10 @@
 # **Introduction to the Repo**
 ---
-## Welcome to my repository...<br>
-I created this repo to preserve and present my assignments to you all.<br>
-All my assignments and tasks assigned by *Prabha Technology* will be pushed here.<br>
+## Welcome to my repository...
+#### I created this repo to preserve and present my assignments to you all.<br>
+#### All my assignments and tasks assigned by *Prabha Technology* will be pushed here.<br>
 ---
-## My File Structure:<br><br>
+## My File Structure:
 ```
 📂 Assessment  
 │                      *some unneccessary files may not be shown in structure*  
