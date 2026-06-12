@@ -5,6 +5,7 @@ I created this repo to preserve and present my assignments to you all.<br>
 All my assignments and tasks assigned by *Prabha Technology* will be pushed here.<br>
 ---
 ## My File Structure:<br><br>
+```
 📂 Assessment  
 │                      *some unneccessary files may not be shown in structure*  
 ├──📂 Assignment1  
@@ -38,4 +39,5 @@ All my assignments and tasks assigned by *Prabha Technology* will be pushed here
 |   └── Q25.py  
 |  
 └── README.md
+```
 ---
