@@ -1,6 +1,6 @@
 
-# Assignment 3 - Python OOP Practical Questions
-print("Assignment 3 - Python OOP Practical Questions")
+# Assignment 5 - Python OOP Practical Questions
+print("Assignment 5 - Python OOP Practical Questions")
 print()
 
 # Q1: Create a Student class with instance variables name and age. Create 3 objects and display their details.
