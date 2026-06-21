@@ -92,15 +92,14 @@ print()
 #     2. IndexError 
 print("Q6. Multiple Exceptions ")
 l1 = [1, 2, 3]
-ind1 = int(input("Enter index: "))
 try:
     num1 = int(input("Enter a Number: "))
+    ind1 = int(input("Enter index: "))
     l1.insert(num1, ind1)
-except ValueError or IndexError:    
-    if ValueError:
-        print("Invalid input")
-    else:
-        print("Index out of range")
+except ValueError:    
+    print("Invalid input")
+except IndexError:
+    print("Index out of range")
 print()
 
 
