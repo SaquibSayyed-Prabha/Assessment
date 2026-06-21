@@ -1,5 +1,6 @@
 # Assignment 2 - Dictionaries, Sets & Functions
 print("Assignment 2 – Dictionaries, Sets & Functions")
+print()
 
 # Section 1: 
 # Dictionary Challenges
