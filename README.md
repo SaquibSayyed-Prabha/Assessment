@@ -10,6 +10,22 @@ The goal of this repository is not only to preserve my work but also to document
 
 ---
 
+## Assignment Progress
+
+[x] Assignment 1
+[x] Assignment 2
+[x] Assignment 3
+[x] Assignment 4
+[x] Assignment 5
+[x] Assignment 6
+[x] Assignment 7
+[x] Assignment 8
+[x] Assignment 9
+
+> **Upcoming assignments will be updated soon...**
+
+---
+
 ## Repository Structure
 
 ```text
@@ -44,6 +60,21 @@ The goal of this repository is not only to preserve my work but also to document
 │   ├── Q1.py
 │   ├── ...
 │   └── Q25.py
+│
+├── 📂 Assignment6
+│   ├── Assignment6.py (Combined Programs)
+│   ├── Q1.py
+│   ├── ...
+│   └── Q15.py
+│
+├── 📂 Assignment7
+│   └── Assignment7.py (Combined Programs)
+│
+├── 📂 Assignment8
+│   └── Assignment8.py (Combined Programs)
+│
+├── 📂 Assignment9
+│   └── Assignment9.py (Combined Programs)
 │
 └── README.md
 ```
