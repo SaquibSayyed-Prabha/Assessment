@@ -12,17 +12,16 @@ The goal of this repository is not only to preserve my work but also to document
 
 ## Assignment Progress
 
-[x] Assignment 1
-[x] Assignment 2
-[x] Assignment 3
-[x] Assignment 4
-[x] Assignment 5
-[x] Assignment 6
-[x] Assignment 7
-[x] Assignment 8
-[x] Assignment 9
-
-> **Upcoming assignments will be updated soon...**
+- [x] Assignment 1
+- [x] Assignment 2
+- [x] Assignment 3
+- [x] Assignment 4
+- [x] Assignment 5
+- [x] Assignment 6
+- [x] Assignment 7
+- [x] Assignment 8
+- [x] Assignment 9
+> *Upcoming assignments will be updated soon...*
 
 ---
 
