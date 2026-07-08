@@ -36,7 +36,7 @@ The goal of this repository is not only to preserve my work but also to document
 
 ---
 <details>
-<summary>## Repository Structure</summary>
+<summary><h2> Repository Structure</h2></summary>
 
 ```text
 📂 Assessment
@@ -88,7 +88,6 @@ The goal of this repository is not only to preserve my work but also to document
 │
 └── README.md
 ```
-</details>
 
 > Note: Some modules, cache files may not be shown in the structure above.
 </details>
