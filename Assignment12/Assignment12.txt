@@ -1,0 +1,37 @@
+Assignment 12 - Data Cleaning 
+ 
+Q1. What is Data Cleaning? 
+
+> Data Cleaning is the process of identifying and correcting errors, missing values, 
+duplicate records, and inconsistent data to improve the quality of a dataset.
+
+
+Q2. What is a Missing Value? 
+
+> A Missing Value is a value that is not available or is empty in a dataset. In Pandas, 
+missing values are represented as NaN or None.
+
+
+Q3. What is the purpose of isnull()? 
+
+> isnull() is used to identify missing values in a DataFrame or Series. It returns True 
+for missing values and False for non-missing values.
+
+
+Q4. What is the purpose of fillna()? 
+
+> fillna() is used to replace missing values with a specified value, such as 0, the mean, 
+or any other value.
+
+
+Q5. What is the difference between fillna() and dropna()? 
+
+> fillna() replaces missing values with a specified value, whereas dropna() removes rows 
+or columns that contain missing values.
+
+
+Q6. What is the purpose of drop_duplicates()? 
+
+> drop_duplicates() is used to remove duplicate rows from a DataFrame, keeping only the 
+first occurrence by default.
+
