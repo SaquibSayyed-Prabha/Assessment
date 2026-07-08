@@ -12,6 +12,8 @@ The goal of this repository is not only to preserve my work but also to document
 
 ## Assignment Progress
 
+> A - Assignment
+> D - Day
 - [x] A1 – Python Basics + Control Flow
 - [x] A2 – D2 Dictionaries, Sets & Functions
 - [x] A3 - Python Modules & OOP Practice Coding
