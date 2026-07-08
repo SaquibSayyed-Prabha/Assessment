@@ -23,7 +23,7 @@ The goal of this repository is not only to preserve my work but also to document
 - [x] A8 - Exception Handling
 - [x] A9 - File Handling Practice Questions
 - [x] A10 - D1 Pandas Training
-- [ ] A11 - D2 Pandas Training
+- [x] A11 - D2 Pandas Training
 - [ ] A12 - D3 Pandas Training
 - [ ] A13 - D4 Pandas Training
 - [ ] A14 - D5 Pandas Training

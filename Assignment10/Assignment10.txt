@@ -36,4 +36,5 @@ Each row represents a record, and the values in each row are separated by commas
 
 
 Q6. Write a program to create a DataFrame from a dictionary.
+
 > [Solved in 'Assignment10.ipynb' at the bottom] 

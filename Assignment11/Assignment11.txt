@@ -1,0 +1,34 @@
+Assignment 11 - Data Selection & Filtering 
+ 
+Q1. What is the purpose of head()? 
+
+> head() displays the first 5 rows of a DataFrame by default. It is used to quickly preview the data.
+
+
+Q2. What is the purpose of tail()? 
+
+> tail() displays the last 5 rows of a DataFrame by default. It is used to view the ending records of 
+the dataset.
+
+
+Q3. What does shape return? 
+
+> shape returns a tuple containing the number of rows and columns in the DataFrame in the format 
+(rows, columns).
+
+
+Q4. What does info() display? 
+
+> info() displays a summary of the DataFrame, including the number of rows, column names, data types,
+non-null values, and memory usage.
+
+
+Q5. What does describe() display? 
+
+> describe() displays statistical information about numerical columns, such as count, mean, standard 
+deviation, minimum, maximum, and quartile values.
+
+
+Q6. Write a program to display employees whose salary is greater than 50000.
+
+> [Solved in 'Assignment11.ipynb' at the bottom] 
