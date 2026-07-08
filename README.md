@@ -35,8 +35,8 @@ The goal of this repository is not only to preserve my work but also to document
 > *Upcoming assignments will be updated soon...*
 
 ---
-
-## Repository Structure
+<details>
+<summary>## Repository Structure</summary>
 
 ```text
 📂 Assessment
@@ -88,6 +88,7 @@ The goal of this repository is not only to preserve my work but also to document
 │
 └── README.md
 ```
+</details>
 
 > Note: Some modules, cache files may not be shown in the structure above.
 
