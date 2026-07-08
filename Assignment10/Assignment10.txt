@@ -1,0 +1,39 @@
+Assignment 10 - Introduction to Pandas, Series, DataFrame, CSV Files 
+
+Q1. What is Pandas?
+
+> Pandas is a Python library used for data manipulation, analysis, 
+and processing. It provides powerful data structures like Series and DataFrame 
+that make working with structured data easy.
+
+
+Q2. Why is Pandas used in AI/ML? 
+
+> Pandas is used in AI/ML because it helps in:
+  - Loading datasets from files (CSV, Excel, etc.).
+  - Cleaning and preprocessing data.
+  - Handling missing values.
+  - Filtering, sorting, and transforming data.
+  - Preparing data before training machine learning models.
+
+
+Q3. What is a Series? 
+
+> A Series is a one-dimensional labeled array in Pandas that can store data of
+any type (integers, strings, floats, etc.). It is similar to a single column in a table.
+
+
+Q4. What is a DataFrame?
+
+> A DataFrame is a two-dimensional table in Pandas consisting of rows and columns.
+It is the most commonly used data structure for storing and analyzing tabular data.
+
+
+Q5. What is a CSV file? 
+
+> A CSV (Comma-Separated Values) file is a plain text file used to store tabular data. 
+Each row represents a record, and the values in each row are separated by commas.
+
+
+Q6. Write a program to create a DataFrame from a dictionary.
+> [Solved in 'Assignment10.ipynb' at the bottom] 

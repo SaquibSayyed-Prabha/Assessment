@@ -12,8 +12,7 @@ The goal of this repository is not only to preserve my work but also to document
 
 ## Assignment Progress
 
-> A - Assignment
-> D - Day
+> A - Assignment, D - Day
 - [x] A1 – Python Basics + Control Flow
 - [x] A2 – D2 Dictionaries, Sets & Functions
 - [x] A3 - Python Modules & OOP Practice Coding
@@ -23,7 +22,7 @@ The goal of this repository is not only to preserve my work but also to document
 - [x] A7 - Abstract Class_Abstract Method_Polymorphism
 - [x] A8 - Exception Handling
 - [x] A9 - File Handling Practice Questions
-- [ ] A10 - D1 Pandas Training
+- [x] A10 - D1 Pandas Training
 - [ ] A11 - D2 Pandas Training
 - [ ] A12 - D3 Pandas Training
 - [ ] A13 - D4 Pandas Training
@@ -96,7 +95,7 @@ The goal of this repository is not only to preserve my work but also to document
 
 ---
 
-## Before Exploring
+## Before Exploring...
 
 Please keep the following points in mind while browsing the repository:
 
