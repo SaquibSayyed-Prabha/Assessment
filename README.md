@@ -12,15 +12,26 @@ The goal of this repository is not only to preserve my work but also to document
 
 ## Assignment Progress
 
-- [x] Assignment 1
-- [x] Assignment 2
-- [x] Assignment 3
-- [x] Assignment 4
-- [x] Assignment 5
-- [x] Assignment 6
-- [x] Assignment 7
-- [x] Assignment 8
-- [x] Assignment 9
+- [x] A1 – Python Basics + Control Flow
+- [x] A2 – D2 Dictionaries, Sets & Functions
+- [x] A3 - Python Modules & OOP Practice Coding
+- [x] A4 - Python OOP Coding Challenges
+- [x] A5 - Python OOP Practical Questions
+- [x] A6 - Python OOP Practice Assignment
+- [x] A7 - Abstract Class_Abstract Method_Polymorphism
+- [x] A8 - Exception Handling
+- [x] A9 - File Handling Practice Questions
+- [ ] A10 - D1 Pandas Training
+- [ ] A11 - D2 Pandas Training
+- [ ] A12 - D3 Pandas Training
+- [ ] A13 - D4 Pandas Training
+- [ ] A14 - D5 Pandas Training
+- [ ] A15 - Pandas MiniProject1
+- [ ] A16 - D1 Numpy
+- [ ] A17 - D2 Numpy
+- [ ] A18 - Pandas Assignment
+- [ ] A19 - Numpy Assignment
+- [ ] A20 - NumPy Practical
 > *Upcoming assignments will be updated soon...*
 
 ---
