@@ -91,6 +91,7 @@ The goal of this repository is not only to preserve my work but also to document
 </details>
 
 > Note: Some modules, cache files may not be shown in the structure above.
+</details>
 
 ---
 
