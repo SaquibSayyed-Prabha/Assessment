@@ -25,7 +25,7 @@ The goal of this repository is not only to preserve my work but also to document
 - [x] A10 - D1 Pandas Training
 - [x] A11 - D2 Pandas Training
 - [x] A12 - D3 Pandas Training
-- [ ] A13 - D4 Pandas Training
+- [x] A13 - D4 Pandas Training
 - [ ] A14 - D5 Pandas Training
 - [ ] A15 - Pandas MiniProject1
 - [ ] A16 - D1 Numpy
@@ -33,11 +33,12 @@ The goal of this repository is not only to preserve my work but also to document
 - [ ] A18 - Pandas Assignment
 - [ ] A19 - Numpy Assignment
 - [ ] A20 - NumPy Practical
+- [ ] A21 - D3 Array Operations & Mathematical Functions
+- [ ] A22 - Reshaping & Broadcasting
 > *Upcoming assignments will be updated soon...*
 
 ---
-<details>
-<summary><h2> Repository Structure</h2></summary>
+## Repository Structure
 
 ```text
 📂 Assessment
@@ -86,12 +87,63 @@ The goal of this repository is not only to preserve my work but also to document
 │
 ├── 📂 Assignment9
 │   └── Assignment9.py (Combined Programs)
-│
+|
+├── 📂 Assignment10
+│   ├── Assignment10.ipynb 
+│   └── Assignment10.txt 
+|
+├── 📂 Assignment11
+│   ├── Assignment11.ipynb 
+│   └── Assignment11.txt 
+|
+├── 📂 Assignment12
+│   ├── Assignment12.ipynb 
+│   └── Assignment12.txt 
+|
+├── 📂 Assignment13
+│   ├── Assignment13.ipynb 
+│   └── Assignment13.txt 
+|
+├── 📂 Assignment14
+│   ├── Assignment14.ipynb 
+│   └── Assignment14.txt 
+|
+├── 📂 Assignment15
+│   ├── Assignment15.ipynb 
+│   └── Assignment15.txt 
+|
+├── 📂 Assignment16
+│   ├── Assignment16.ipynb 
+│   └── Assignment16.txt 
+|
+├── 📂 Assignment17
+│   ├── Assignment17.ipynb 
+│   └── Assignment17.txt 
+|
+├── 📂 Assignment18
+│   ├── Assignment18.ipynb 
+│   └── Assignment18.txt 
+|
+├── 📂 Assignment19
+│   ├── Assignment19.ipynb 
+│   └── Assignment19.txt 
+|
+├── 📂 Assignment20
+│   ├── Assignment20.ipynb 
+│   └── Assignment20.txt 
+|
+├── 📂 Assignment21
+│   ├── Assignment21.ipynb 
+│   └── Assignment21.txt 
+|
+├── 📂 Assignment22
+│   ├── Assignment22.ipynb 
+│   └── Assignment22.txt 
+|
 └── README.md
 ```
 
-> Note: Some modules, cache files may not be shown in the structure above.
-</details>
+> Note: Some modules or files may not be shown in the structure above.
 
 ---
 

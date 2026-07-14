@@ -1,0 +1,35 @@
+Assignment 13 - Sorting & Grouping
+
+Q1. What is the purpose of sort_values()? 
+
+> sort_values() is used to sort the rows of a DataFrame or Series based on 
+one or more columns in ascending or descending order.
+
+
+Q2. What is the difference between ascending and descending sorting? 
+
+> Ascending sorting arranges values from smallest to largest (A–Z or 0–9), 
+whereas descending sorting arranges values from largest to smallest (Z–A or 9–0).
+
+
+Q3. What is the purpose of unique()? 
+
+> unique() is used to return all distinct (unique) values from a column or Series.
+
+
+Q4. What is the purpose of value_counts()? 
+
+> value_counts() is used to count the number of occurrences of each unique value in a column or Series.
+
+
+Q5. What is groupby()?                                          
+
+> groupby() is used to group data based on one or more columns so that aggregate operations like sum, 
+mean, count, or maximum can be performed on each group.
+
+
+Q6. Write the aggregation functions available in Pandas.
+
+> Common aggregation functions in Pandas are:
+sum(), mean(), count(), min(), max(), median(),
+std(), var(), first(), last()
