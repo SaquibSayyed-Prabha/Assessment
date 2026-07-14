@@ -1,0 +1,45 @@
+Assignment 14 - AI&ML Data Preparation 
+
+Q1. What is Data Exploration? 
+
+> Data explorattion is the process of examining and understanding a dataset using Pandas
+before analysis or machine learning. It includes checking the data's shape, data types,
+missing values, summary statistics, and overall structure using functions like head(),
+info(), and describe().
+
+
+Q2. What is a Feature in Machine Learning? 
+
+> A Feature is a column in a Pandas DataFrame that contains input data used to train a 
+machine learning model.
+
+
+Q3. What is a Target Variable? 
+
+> A Target Variable is the output column in a Pandas DataFrame that the machine learning
+model tries to predict. It is also known as the label or dependent variable.
+
+
+Q4. What is Correlation? 
+
+> Correlation measures the relationship between numerical columns in a dataset. In Pandas,
+the corr() function is used to calculate the correlation between features, with values 
+ranging from -1 to +1
+
+
+Q5. Why is Encoding required in Machine Learning? 
+
+> Encoding is required to convert categorical (text) columns into numerical values because
+machine learning algorithms cannot process text directly. In Python, Pandas provides 
+functions such as get_dummies() to perform encoding
+
+
+Q6. What is the difference between Training Data and Testing Data?
+
+> Training Data:
+    Training data is used to train machine learning models. It usually contaiins a larger
+    portion of the dataset.
+
+Testing Data:
+    Testing data is used to test the performance of the trained models and usually contains
+    smaller portion of the dataset.
