@@ -1,258 +1,366 @@
-# Topic: figure Management(figsize,tight_layout(),savefig(),DPI)
+# Introduction to Seaborn
+
+# Definition:
+
+# Seaborn is a Python visualization library used to create beautiful statistical graphs with less code.
 
 
-# What is figure Management?
-# -> figure Management refers to controlling the appearance and layout of an entire figure.
-# It Includes:
-# figure size
-# Spacing
-# Resolution
-# Saving Charts
-# Layout Adjustment
+# Why is Seaborn Used in AI/ML?
+
+# In Artificial Intelligence and Machine Learning, data must be understood before building a model.
+# Seaborn helps us:
+# Visualize datasets
+# Find patterns
+# Detect trends
+# Compare categories
+# Analyze relationships
+# Identify outliers
+# Understand feature correlations
 
 
-# figure size (figsize)
-# - figsize changes the width and height of the figure.
+# Applications of Seaborn
+
+# Seaborn is widely used in:
+# AI & Machine Learning
+# Data Analytics
+# Data Science
+# Business Intelligence
+# Financial Analysis
+# Sales Analysis
+# Healthcare Analytics
+# Marketing Reports
+# Educational Reports
+
+
+# Features of Seaborn
+
+# 1. Beautiful Charts
+
+# Seaborn creates attractive charts with modern styles by default.
+
+# 2. Simple Syntax
+
+# Compared to Matplotlib, Seaborn requires fewer lines of code.
+
+# 3. Statistical Visualization
+
+# It is specially designed for statistical data analysis.
+# Examples:
+# Distribution
+# Correlation
+# Relationship Analysis
+# Category Comparison
+
+# 4. Built-in Themes
+
+# Seaborn provides professional themes automatically.
+# Examples:
+# darkgrid
+# whitegrid
+# dark
+# white
+# ticks
+
+
+# 5. Built-in Datasets
+
+# Seaborn includes sample datasets for learning.
+# Examples:
+# tips
+# iris
+# titanic
+# penguins
+# flights
+
+# 6. Works with Pandas
+
+# Seaborn works directly with Pandas DataFrames.
+# Example:
+
+# import seaborn as sns
+# import pandas as pd
+
+# df = pd.read_csv("students.csv")
+
+# sns.barplot(data=df, x="Name", y="Marks")
+
+
+# 7. Easy Customization
+# You can easily change:
+# Colors
+# Titles
+# Labels
+# Figure Size
+# Themes
+
+
+# Installing Seaborn
+# Using pip
+# Open Command Prompt or Terminal and run:
+
+# pip install seaborn
+
+
+# Importing Seaborn
+
+# The standard way to import Seaborn is:
+
+# import seaborn as sns
+
+# Here:
+# seaborn → Library Name
+# sns → Alias (short name)
+
+
+# Importing Required Libraries
+
+# Most Seaborn programs also use:
+
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+# import pandas as pd
+
+# Library           Purpose
+
+# seaborn           Statistical charts
+# matplotlib        Display charts
+# pandas            Read and manage datasets
+
+
+# * First Seaborn Program
+
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+
+# tips = sns.load_dataset("tips")
+
+# print(tips.head())
+
+
+
+# When to Use Matplotlib?
+
+# * Use Matplotlib when:
+
+# Creating custom charts
+# Fine control over graphs
+# Drawing low-level visualizations
+# Creating subplots and dashboards
+
+
+# When to Use Seaborn?
+
+# * Use Seaborn when:
+# Working with datasets
+# Creating statistical charts
+# Performing data analysis
+# Comparing categories
+# Finding correlations
+# Building AI/ML visualizations
+
+
+
+
+# *** Basic Seaborn Charts
+
+
+# 1:  Loading Built-in Datasets
+# - Seaborn provides several sample datasets that help us learn data visualization without downloading external csv files.
+# - These datasets are already available inside the Seaborn library.
+
 
 # Syntax:
-# plt.figure(figsize=(width,height))
-# width -> inches
-# height -> inches
 
+# import seaborn as sns
+# df = sns.load_dataset("dataset_name")
 
 # Example:
 
-# import matplotlib.pyplot as plt
+# import seaborn as sns
 
-# plt.figure(figsize=(10,5))
+# tips = sns.load_dataset("tips")
 
-# plt.plot([1,2,3,4],[10,20,15,30])
-
-# plt.title("Sales Report")
-
-# plt.show()
+# print(tips.head())
 
 
-
-
-# * What is tight_layout()?
-# -> tight_layout() automatically Adjusts spacing between subplots.
-# It Prevents:
-# - Overlapping titles
-# - Overlapping Labels
-# - Hidden axes
-
-
-# Syntax:
-# plt.tight_layout()
-
+# * head() - return First 5 rows.
+# * tail() - return last 5 rows.
+# * info() - Display dataset information.
+# * describe() - Display Statistical Summary.
 
 # Example:
+# import seaborn as sns
 
-# import matplotlib.pyplot as plt
+# tips = sns.load_dataset("tips")
 
-# plt.figure(figsize=(8,5))
-
-# plt.subplot(1,2,1)
-
-# plt.plot([1,2,3],[10,20,30])
-
-# plt.title("Line Chart")
-
-# plt.subplot(1,2,2)
-
-# plt.bar(["A","B","C"],[20,35,25])
-
-# plt.title("Bar Chart")
-
-# plt.tight_layout()
-
-# plt.show()
+# # print(tips.head())
+# # print(tips.tail())
+# # print(tips.info())
+# print(tips.describe())
 
 
-# ** savefig()
-# - savefig() saves the current figure as an image or document file.
+# ** Count Plot
+# - A Count Plot Display the number of occurrences(frequency) of each Category.
+# - It is used for categorical data.
 
-# Why use savefig()?
-# - It allows you to: save reports,share charts with others,print graphs.
 
 # Syntax:
-# plt.savefig("filename.png")
-
-
-# Example: Save as PNG 
-
-# import matplotlib.pyplot as plt
-
-# plt.figure(figsize=(10,5))
-
-# plt.plot([1,2,3,4],[10,20,15,30])
-
-# plt.title("Student Report")
-
-# plt.savefig("student_report.png")
-
-# plt.show()
-
-
-
-# Example: Save as JPG
-
-# import matplotlib.pyplot as plt
-
-# plt.figure(figsize=(10,5))
-
-# plt.plot([1,2,3,4],[10,20,15,30])
-
-# plt.title("Student Report")
-
-# plt.savefig("student_report1.jpg")
-
-# plt.show()
-
-
-# Example: Save as PDF
-
-# import matplotlib.pyplot as plt
-
-# plt.figure(figsize=(10,5))
-
-# plt.plot([1,2,3,4],[10,20,15,30])
-
-# plt.title("Student Report")
-
-# plt.savefig("student_report1.pdf")
-
-# plt.show()
-
-
-
-# * What is DPI?
-# -> DPI stands for Dots Per Inch.
-# It determines the image quality(resolution).
-
-# Higher DPI = Better quality
-
-
-# Common DPI values:
-# DPI         values
-# 72          Low
-# 100         Standard
-# 150         Good
-# 300         High(Print quality)
-
-# Syntax:
-
-# plt.savefig("chart.png",dpi=300)
-
+# sns.countplot(data=df,x="column_name")
 
 # Example:
-
+# import seaborn as sns
 # import matplotlib.pyplot as plt
 
-# plt.figure(figsize=(10,5))
-
-# plt.bar([1,2,3,4],[10,20,15,30])
-
-# plt.title("Student Report")
-
-# plt.savefig("student_bar_report.png",dpi=300)
-
-# plt.show()
-
-
-# *** Styles
-
-# - A Style is a predefined design that changes the appearance of a chart without Changing
-#   the data.
-
-# Styles automatically modify:
-# background color
-# grid style
-# Font style
-# line colors
-# marker colors
-# overall theme
-
-
-
-
-# * Viewing Available Styles
-
-# Syntax:
-
-# print(plt.style.available)
-
-# Example:
-
-# import matplotlib.pyplot as plt
-
-# print(plt.style.available)
-
-
-
-
-# Applying a Styles:
-
-# Syntax:
-
-# plt.style.use("style_name")
-
-
-# ggplot style:
-# - The ggplot style is inspired by the R ggplot2 library.
-# It provides:
-# - Light gray background
-# - White grid lines
-# - Attractive colors
-# - Professional appearance
-
-# Style:
-
-# plt.style.use("ggplot")
-
-
-# Example:
-
-# import matplotlib.pyplot as plt
-
-# plt.figure(figsize=(10,5))
-# plt.style.use("ggplot")
-# plt.plot([1,2,3,4],[10,20,15,30],marker="o")
-
-# plt.title("Student Report")
-
-# plt.savefig("student_report.png")
-
-# plt.show()
-
-
-
-# * dark_background
-
-# Syntax:
-
-# plt.style.use("dark_background")
-
-# Example:
-# import matplotlib.pyplot as plt
-
-# plt.figure(figsize=(10,5))
-# plt.style.use("dark_background")
-# plt.bar([1,2,3,4],[10,20,15,30])
-
-# plt.title("Student Report")
-
+# tips = sns.load_dataset("tips")
+# # print(tips.head)
+# sns.countplot(data=tips,x="sex")
 # plt.show()
 
 
 # Example:
-
+# import seaborn as sns
 # import matplotlib.pyplot as plt
-# plt.style.use("classic")
-# plt.figure(figsize=(10,5))
 
-# plt.plot([1,2,3,4],[10,20,15,30])
+# t1 = sns.load_dataset("tips")
+# sns.countplot(data=t1,x="day")
 
-# plt.title("Sales Report")
 # plt.show()
+
+
+
+# ** Bar Plot
+
+# What is a Bar plot?
+# -> A Bar Plot compares the average(or another aggregate) value of a numerical column across different categories.
+# - By default , Seaborn calculates the mean of the numeric values.
+
+# Syntax:
+
+# sns.barplot(data=df,x="category",y="value")
+
+# Example:
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+
+# tips = sns.load_dataset("tips")
+# # print(tips)
+# sns.barplot(data=tips,x="day",y="total_bill")
+
+# plt.show()
+
+
+# ** Line Plot
+# What is line Plot.
+# - A Line Plot shows how values change over time or in a sequence.
+# it helps Identify:
+# -trends
+# -growth
+# -Increase
+# -Decrease
+
+
+# Syntax:
+# sns.lineplot(data=df,x="column1",y="column2")
+
+# Example:
+
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+
+# months = ["Jan","Feb","Mar","Apr","May"]
+# sales = [120,150,170,200,220]
+
+# sns.lineplot(x=months,y=sales,marker="o")
+
+# plt.show()
+
+
+# ** Scatter Plot
+# What is a Scatter Plot?
+# -> A Scatter plot Display the relationship between two numerical variables.
+
+# Syntax:
+# sns.scatterplot(data=df,x="column1",y="column2")
+
+# Example:
+
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+
+# height = [150,155,160,165,170,175]
+# weight = [45,50,55,60,68,75]
+
+# sns.scatterplot(x=height,y=weight)
+
+# plt.show()
+
+
+# Example:
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+
+# plt.figure(figsize=(10,6))
+
+# tips = sns.load_dataset("tips")
+# # print(tips)
+# sns.barplot(data=tips,x="day",y="total_bill",color="red")
+
+# plt.title("Average Bill by Day")
+# plt.xlabel("Day")
+# plt.ylabel("Average Bill")
+# plt.show()
+
+
+# ** Histogram
+# - A Histogram is used to Display the Distribution of numerical data.
+
+# Syntax:
+
+# sns.histplot(data=df,x="column_name")
+
+# Example:
+
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+
+# marks = [45,55,60,62,65,68,70,75,82,95]
+
+# sns.histplot(x=marks)
+
+# plt.show()
+
+
+# Example: Using a Datasets
+
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+
+# t1 = sns.load_dataset("tips")
+
+# sns.histplot(data=t1,x="total_bill")
+
+# plt.show()
+
+
+# Example: bins
+
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+
+# t1 = sns.load_dataset("tips")
+
+# sns.histplot(data=t1,x="total_bill",bins=5)
+
+# plt.show()
+
+
+
+
+# Example:
+
+# import seaborn as sns
+# import pandas as pd
+
+# d1 = pd.read_csv("student.csv")
+
+# sns.barplot(data=d1,x="Name",y="Marks")
