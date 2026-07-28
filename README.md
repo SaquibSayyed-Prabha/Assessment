@@ -27,7 +27,7 @@ The goal of this repository is not only to preserve my work but also to document
 - [x] A12 - D3 Pandas Training
 - [x] A13 - D4 Pandas Training
 - [x] A14 - D5 Pandas Training
-- [ ] A15 - Pandas MiniProject1
+- [x] A15 - Pandas MiniProject1
 - [ ] A16 - D1 Numpy
 - [ ] A17 - D2 Numpy
 - [ ] A18 - Pandas Assignment
