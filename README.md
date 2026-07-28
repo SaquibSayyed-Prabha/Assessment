@@ -35,6 +35,10 @@ The goal of this repository is not only to preserve my work but also to document
 - [ ] A20 - NumPy Practical
 - [ ] A21 - D3 Array Operations & Mathematical Functions
 - [ ] A22 - Reshaping & Broadcasting
+- [ ] A23 - Introduction to Matplotlib
+- [ ] A24 - Matplotlib Assignment
+- [ ] A25 - Matplotlib Assignment
+- [ ] A26 - Scikitlearn Data Preprocessing
 > *Upcoming assignments will be updated soon...*
 
 ---
